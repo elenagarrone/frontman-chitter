@@ -14,7 +14,7 @@ body {
 .global-nav {
 	background-color: #ffffff;
 	border-bottom: 1px solid rgba(0,0,0,0.15);
-	height: 46px;
+	height: 50px;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -22,7 +22,6 @@ body {
 	width: 100%;
 	z-index: 1000;
 	display: inline-block;
-	padding-bottom: 0.5em;
 }
 
 .left-nav ul .right-nav ul {
@@ -30,7 +29,6 @@ body {
 	list-style: none;
 	padding: 0;
 	display: block;
-	list-style-type: disc;
 	text-align: center;
 	padding-left: 10%;
 }
@@ -42,7 +40,7 @@ body {
 	display: block;
 	font-size: 13px;
 	font-weight: 500;
-	height: 46px;
+	height: 30px;
 	line-height: 1;
 	padding: 0.5em;
 	margin-right: 20px;
@@ -58,10 +56,6 @@ body {
 	font-size: normal;
 	position: relative;
 	margin-top: -5px;
-}
-
-.login-nav {
-	margin-left: 10%;
 }
 
 .login-nav li {
@@ -97,6 +91,37 @@ body {
 	text-shadow: none;
 }
 
+.right-nav {
+	float: right;
+	margin-right: 10%;
+}
+
+.right-nav .profile_picture {
+	width: 32px;
+	height: 32px;
+	border: 0;
+	opacity: 1;
+	position: fixed;
+	top: 10;
+	right: 0;
+	left: 80%;
+	border: 1px solid #bef8cf;
+	border-radius: 5px;
+}
+
+.peep-button {
+	padding: 2px;
+	font-size: 12px;
+	text-decoration: none;
+    color: #8899a6;
+    border-radius: 5px;
+    border: 1px solid #bef8cf;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(177, 246, 203); /* this is a green */
+    position: fixed;
+    top: 20;
+    right: 170;
+}
 
 /*.icon-turtle {
 	display: inline-block;
