@@ -125,7 +125,7 @@ body {
 	margin-left: 10%;
 }
 
-#user_input{
+#user-input{
 	position: relative;
 	float: left;
 	width: 25%;
@@ -138,20 +138,48 @@ body {
 	line-height: 18px;
 }
 
-#user_input header{
-	background-color: #0084B4;
+#user-input header{
+	background-color: #6bd694;
 	height: 7em;
 	border-radius: 6px 6px 0px 0px;
 }
 
-#user_info .profile_picture {
+#user-info .profile_picture {
 	border-radius: 7px;
 	height: 72px;
 	width: 72px;
-	border: 2px solid #fff;
+	border: 2px solid #bef8cf;
 	box-sizing: border-box;
-	color: #fff;
+	color: #bef8cf;
+	z-index: 1000;
+	position: relative;
+	margin-top: -3em;
+	margin-left: 6px;
 }
 
+#user-info {
+/*	height: 8em;*/
+	padding: 0.5em;
+}
 
+#identity{
+	position: relative;
+	margin-left: 6.5em;
+	margin-top: -4em;
+}
+
+#identity h1{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+#identity h2{
+	font-size: 12px;
+	color: #66757f;
+	margin-top: -6px;
+	margin-bottom: 5px;
+}
 
