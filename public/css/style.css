@@ -114,7 +114,7 @@ body {
     border-radius: 5px;
     border: 1px solid #bef8cf;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    background: rgb(177, 246, 203); /* this is a green */
+    background: rgb(107,214,148); /* this is a green */
     position: fixed;
     top: 20;
     right: 13%;
@@ -182,4 +182,42 @@ body {
 	margin-top: -6px;
 	margin-bottom: 5px;
 }
+
+#peep_box {
+	border: 1px solid;
+	border-color: rgba(107,214,148,0.25);
+	background-color: #ccfacf;
+	margin-bottom-1px;
+	padding: 12px;
+	padding: 10px 12px;
+	border-radius: 0 0 5px 5px;
+}
+
+#new_peep_content{
+	color: #8899a6;
+	font-size: 14px;
+	padding: 6px 8px 5px;
+	background-color: #fff;
+	border: 1px solid #e1e8ed;
+	border-color: rgba(0,132,180,0.25);
+	border-radius: 5px;
+	max-height: 26px;
+	min-height: 19px;
+	word-wrap: normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	line-height: 18px;
+	text-shadow: none;
+	width: 70%;
+}
+
+
+
+
+
+
+
+
+
 
