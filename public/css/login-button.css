@@ -1,0 +1,7 @@
+.login-button {
+    color: white;
+    border-radius: 2px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65); /* this is a green */
+    margin-top: 10px;
+}
