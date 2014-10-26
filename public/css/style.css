@@ -1,0 +1,93 @@
+/*//////imports\\\\\\*/
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+/*//////end-imports\\\\\\*/
+
+body { 
+	height: 100%;
+	background-color: #a7cece;
+	background: url(images/background.png);
+	/*background-repeat: repeat-x;*/
+	overflow-y: scroll;
+	font-family: 'Poiret One', cursive;
+}
+
+.global-nav {
+	background-color: #ffffff;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	height: 46px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	display: inline-block;
+	padding-bottom: 0.5em;
+}
+
+.left-nav ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: block;
+	list-style-type: disc;
+	text-align: center;
+	padding-left: 10%;
+}
+
+.global-nav li {
+	float: left;
+	overflow: hidden;
+	/*position: relative;*/
+	display: block;
+	font-size: 13px;
+	font-weight: 500;
+	height: 46px;
+	line-height: 4;
+	padding: 0 14px 0 4px;
+	margin-right: 20px;
+}
+
+#home-icon {
+	float: left;
+	margin: 11px 0 0 10px;
+	width: 33px;
+	height: 30px;
+	background: transparent;
+	display: inline-block;
+	font-size: normal;
+	position: relative;
+	margin-top: 10px;
+}
+
+
+/*.icon-turtle {
+	display: inline-block;
+	margin-top: 6px;
+	width: 30px;
+	height: 30px;
+}*/
+
+/*
+#global-sign-up {
+	padding: 0 13px 0 14px;
+	display: block;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1;
+	color: #fff;
+	cursor: pointer;
+	height: 32px;
+	margin-top: 0px;
+	margin-right: 0;
+	opacity: 1;
+	background-color: #acc172;
+	background: rgba(172,193,114,.8);
+	border: 1px solid transparent;
+	text-align: center;
+	border-radius: 4px;
+	position: relative;
+}*/
+
+
