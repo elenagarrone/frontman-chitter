@@ -1,10 +1,14 @@
-Chitter
-=========
+Frontman Badge Test
+==============================
 
-**Level 1:**
+Your chitter application has been talked about in the internet and people are raving.
+One of the biggest complaints though is that it doesn’t “feel right”. Our team of social media analysts (SMASS) have found out that the best course of action to make the next killer social media application (NEKSMEA) is to work heavily on the front end and create and api for 3rd parties to connect to our system.
+Your task is split into various sub features:
 
-We are going to write a little Twitter clone that will allow the users to post messages to a public stream.
-
-**Level 2:**
-
-The code has to be deployed to Heroku with two separate staging deployment targets: staging and production. This means having two Heroku apps that are being deployed to and three GitHubs remotes(origin, staging, production).
+- skin the application (mainly css and html) so that it finally looks
+decent ( there is a small competitor of ours, twitter, their ui is quite decent, RECREATE IT!. )
+- make the whole front end work with javascript and a templating system ( like handlebarsjs ) to enrich the experience. Make sure that
+we only serve one html from our server that will initiate the
+application.
+- create a JSON API on the server and make the front end talk to that
+api ( you should create a path like so /api/peep etc ).
