@@ -24,10 +24,8 @@ body {
 	display: inline-block;
 }
 
-.left-nav ul .right-nav ul {
-	margin: 0;
+.left-nav ul .right-nav ul {s
 	list-style: none;
-	padding: 0;
 	display: block;
 	text-align: center;
 	padding-left: 10%;
@@ -40,7 +38,6 @@ body {
 	display: block;
 	font-size: 13px;
 	font-weight: 500;
-	height: 30px;
 	line-height: 1;
 	padding: 0.5em;
 	margin-right: 20px;
@@ -55,7 +52,7 @@ body {
 	display: inline-block;
 	font-size: normal;
 	position: relative;
-	margin-top: -5px;
+	top: -20;
 }
 
 .login-nav li {
@@ -120,35 +117,41 @@ body {
     background: rgb(177, 246, 203); /* this is a green */
     position: fixed;
     top: 20;
-    right: 170;
+    right: 13%;
 }
 
-/*.icon-turtle {
-	display: inline-block;
-	margin-top: 6px;
-	width: 30px;
-	height: 30px;
-}*/
+#main {
+	margin-top: 5%;
+	margin-left: 10%;
+}
 
-/*
-#global-sign-up {
-	padding: 0 13px 0 14px;
-	display: block;
-	font-size: 13px;
-	font-weight: 500;
-	line-height: 1;
-	color: #fff;
-	cursor: pointer;
-	height: 32px;
-	margin-top: 0px;
-	margin-right: 0;
-	opacity: 1;
-	background-color: #acc172;
-	background: rgba(172,193,114,.8);
-	border: 1px solid transparent;
-	text-align: center;
-	border-radius: 4px;
+#user_input{
 	position: relative;
-}*/
+	float: left;
+	width: 25%;
+	height: 18em;
+	margin-left: 1%;
+	border-radius: 6px;
+	background-color: #fff;
+	color: #8899a6;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#user_input header{
+	background-color: #0084B4;
+	height: 7em;
+	border-radius: 6px 6px 0px 0px;
+}
+
+#user_info .profile_picture {
+	border-radius: 7px;
+	height: 72px;
+	width: 72px;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	color: #fff;
+}
+
 
 
