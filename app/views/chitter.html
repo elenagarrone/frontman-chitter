@@ -58,5 +58,34 @@
 				</article>
 			</section>
 		</main>
+		<template id="peepTemplate">
+			<article>
+				<header>
+					<h3 class="full_name">{{ name }}</h3>
+					<h3 class="username">{{ username }}</h3>
+					<h3 class="time">- {{ time }}</h3>
+				</header>
+				<p class="peep_content">{{ peepContent }}</p>
+			</article>
+		</template>
+
+		<script type="text/javascript" src="../../public/jQuery.js"></script>
+		<script type="text/javascript" src="../../public/handlebars.js"></script>
+		<script type="text/javascript">
+			$('#validate_peep').on('click', function(){
+				var peep_content = $('#new_peep_content').val();
+				var source = $('#peepTemplate').html();
+				var template = Handlebars.compile(source);
+				var data = {
+					name: "Elena",
+					username: "@elena15",
+					time: "17:58:28 26/10/2014"
+					peepContent: peep_content
+				};
+				$('#peeps').append(template(data));
+				$('#peeps article').last().addClass('peep_list');
+				$('#new_peep_content').val('');
+			});
+
 	</body>
 </html>
